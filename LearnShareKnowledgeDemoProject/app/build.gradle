@@ -6,7 +6,7 @@ apply plugin: 'pmd'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
-
+    abortOnError false
     defaultConfig {
         applicationId "demo.lsk.com.learnshareknowledgedemoproject"
         minSdkVersion 17
