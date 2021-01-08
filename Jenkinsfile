@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('echo meesage') {
       steps {
-        echo 'hello my first digital ocean job'
+        echo 'hello my first SCM Pipeline job'
       }
     }
 
